@@ -3,7 +3,7 @@
 int main(void) 
 {
     int input_num, i, j, k;
-    printf("Jumlah angka : ");scanf("%d",&input_num);
+    printf("input range of array : ");scanf("%d",&input_num);
     int arr_num[input_num];
     
     // input array
@@ -36,5 +36,5 @@ int main(void)
     }
     
     k = k / input_num;
-    printf("rata2 nya adalah : %d",k);
+    printf("averge : %d",k);
 }
